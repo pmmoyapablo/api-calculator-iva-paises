@@ -23,3 +23,5 @@ http://....:5000/swagger/index.html
 Cambiar el usuario Docker Hub de registro de imagen (editar ficheros .gitlab-ci.yml y docker-compose.yml) que tiene el mio que es: pm44019 a otro ya autenticado o publico para hacer pull y push de la imagen en el proceso CI/CD. Mi cuenta Docker Hub esta ilimitada para imagen publica sin login y por seguridad no doy mis credenciales.
 
 Bienvenido a Git Hub.
+
+Version 1.0
