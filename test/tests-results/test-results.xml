@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="a77d0645-28c3-4a20-a74e-8eaa23f8f87b" name="@0029dfa38cee 2022-10-10 20:49:42" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-10-10T20:49:42.7604635+00:00" queuing="2022-10-10T20:49:42.7604644+00:00" start="2022-10-10T20:49:41.0283909+00:00" finish="2022-10-10T20:49:42.8110777+00:00" />
+  <TestSettings name="default" id="7848fa53-be6d-4b4f-962c-757b21816ae0">
+    <Deployment runDeploymentRoot="_0029dfa38cee_2022-10-10_20_49_42" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="172b71fc-fe8e-48b1-a191-d152cba2f55b" testId="6da292ff-9c9d-31c6-49f3-a7e49a60a26c" testName="WebApiRestTest.Domain.CalculatorIvaVeTest.getTax1_AmountPositive_Value" computerName="0029dfa38cee" duration="00:00:00.0002152" startTime="2022-10-10T20:49:42.7272358+00:00" endTime="2022-10-10T20:49:42.7272365+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="172b71fc-fe8e-48b1-a191-d152cba2f55b" />
+    <UnitTestResult executionId="2780a1a7-7515-4741-ba67-a5c11d1ef382" testId="00c1f478-1721-9868-d845-be7f2aef610c" testName="WebApiRestTest.Domain.CalculatorIvaCoTest.getTax1_AmountNegative_Xero" computerName="0029dfa38cee" duration="00:00:00.0048283" startTime="2022-10-10T20:49:42.6863440+00:00" endTime="2022-10-10T20:49:42.6864716+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2780a1a7-7515-4741-ba67-a5c11d1ef382" />
+    <UnitTestResult executionId="626de806-a7aa-4e39-9ff8-2d11a1c3a202" testId="ecde0d8b-b0bc-e90f-a261-d479148b2029" testName="WebApiRestTest.Domain.CalculatorIvaVeTest.getTax1_AmountNegative_Xero" computerName="0029dfa38cee" duration="00:00:00.0001218" startTime="2022-10-10T20:49:42.7273406+00:00" endTime="2022-10-10T20:49:42.7273413+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="626de806-a7aa-4e39-9ff8-2d11a1c3a202" />
+    <UnitTestResult executionId="c7b2faa1-7ccd-4b48-a4e4-afe4ba8033c7" testId="11a14aeb-ca9d-6d20-6ff3-51fa9be0824c" testName="WebApiRestTest.Domain.CalculatorIvaVeTest.getTax2_AmountPositive_Value" computerName="0029dfa38cee" duration="00:00:00.0044093" startTime="2022-10-10T20:49:42.6904698+00:00" endTime="2022-10-10T20:49:42.6904704+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7b2faa1-7ccd-4b48-a4e4-afe4ba8033c7" />
+    <UnitTestResult executionId="5d4ce9f5-dc07-46f2-ae1f-df70adea3436" testId="701a6640-9f01-64af-5304-78dd8ad64e96" testName="WebApiRestTest.Domain.CalculatorIvaCoTest.getTax2_AmountNegative_Xero" computerName="0029dfa38cee" duration="00:00:00.0001090" startTime="2022-10-10T20:49:42.7270865+00:00" endTime="2022-10-10T20:49:42.7270872+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d4ce9f5-dc07-46f2-ae1f-df70adea3436" />
+    <UnitTestResult executionId="72b84801-5eca-406b-b4d0-4ed9c07d0166" testId="36828e13-9b82-fc86-89c7-958d6fc28be9" testName="WebApiRestTest.Domain.CalculatorIvaPaTest.getTax1_AmountPositive_Value" computerName="0029dfa38cee" duration="00:00:00.0001348" startTime="2022-10-10T20:49:42.7273151+00:00" endTime="2022-10-10T20:49:42.7273157+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72b84801-5eca-406b-b4d0-4ed9c07d0166" />
+    <UnitTestResult executionId="b6472fed-6dd2-49b5-a87f-3f2b37cb4883" testId="ce2ebe43-6d4c-ad6b-3c13-62c049fde3c6" testName="WebApiRestTest.Application.ManagerMainTest.GetInfoIvaCoiuntry_codeInvalid_ErrorCounty" computerName="0029dfa38cee" duration="00:00:00.0002490" startTime="2022-10-10T20:49:42.7272805+00:00" endTime="2022-10-10T20:49:42.7272812+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6472fed-6dd2-49b5-a87f-3f2b37cb4883" />
+    <UnitTestResult executionId="8cff8fe7-b9c6-49c5-bbcf-356372ba6e63" testId="abfe8bdf-86b8-09cf-eed5-83c1e2e525ca" testName="WebApiRestTest.Domain.CalculatorIvaPaTest.getTax2_AmountNegative_Xero" computerName="0029dfa38cee" duration="00:00:00.0001569" startTime="2022-10-10T20:49:42.7271746+00:00" endTime="2022-10-10T20:49:42.7271753+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cff8fe7-b9c6-49c5-bbcf-356372ba6e63" />
+    <UnitTestResult executionId="019ae792-c16d-4bf0-8923-b468afbcb688" testId="50e3964a-176f-2972-2e6a-b9483595f84f" testName="WebApiRestTest.Domain.CalculatorIvaCoTest.getTax2_AmountPositive_Value" computerName="0029dfa38cee" duration="00:00:00.0002509" startTime="2022-10-10T20:49:42.6914592+00:00" endTime="2022-10-10T20:49:42.6914601+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="019ae792-c16d-4bf0-8923-b468afbcb688" />
+    <UnitTestResult executionId="7f49bab9-ba1b-4e6e-a70f-5cc6be961ba2" testId="108569ea-acd8-a96f-5403-a36b56bbcb99" testName="WebApiRestTest.Domain.CalculatorIvaVeTest.getTax2_AmountNegative_Xero" computerName="0029dfa38cee" duration="00:00:00.0002891" startTime="2022-10-10T20:49:42.6918377+00:00" endTime="2022-10-10T20:49:42.6918383+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f49bab9-ba1b-4e6e-a70f-5cc6be961ba2" />
+    <UnitTestResult executionId="047e091e-c73a-48b0-af82-48f14ffb1083" testId="faff74d1-fbf5-69e9-3c7d-a7148763132d" testName="WebApiRestTest.Domain.CalculatorIvaPaTest.getTax2_AmountPositive_Value" computerName="0029dfa38cee" duration="00:00:00.0047708" startTime="2022-10-10T20:49:42.6903419+00:00" endTime="2022-10-10T20:49:42.6903431+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="047e091e-c73a-48b0-af82-48f14ffb1083" />
+    <UnitTestResult executionId="78acc5fb-231a-409e-90bc-a94647ffb2c1" testId="5c123d5b-7b08-af2d-5776-ae370c4c0e9f" testName="WebApiRestTest.Domain.CalculatorIvaPaTest.getTax1_AmountNegative_Xero" computerName="0029dfa38cee" duration="00:00:00.0002946" startTime="2022-10-10T20:49:42.6918186+00:00" endTime="2022-10-10T20:49:42.6918195+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78acc5fb-231a-409e-90bc-a94647ffb2c1" />
+    <UnitTestResult executionId="bbbe0269-7745-42c4-801f-afbd376bb1f8" testId="78e18d7a-8e0d-487d-2c44-8b2e2dd754e7" testName="WebApiRestTest.Domain.CalculatorIvaCoTest.getTax1_AmountPositive_Value" computerName="0029dfa38cee" duration="00:00:00.0001105" startTime="2022-10-10T20:49:42.7271525+00:00" endTime="2022-10-10T20:49:42.7271532+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbbe0269-7745-42c4-801f-afbd376bb1f8" />
+    <UnitTestResult executionId="ac64a320-d961-44c9-9e2d-b076acace391" testId="8add8b83-9a78-55dc-ce73-6fd091fe3597" testName="WebApiRestTest.Application.ManagerMainTest.GetInfoIvaCoiuntry_taxTypeNoFound_TaxInvalid" computerName="0029dfa38cee" duration="00:00:00.0003941" startTime="2022-10-10T20:49:42.7269258+00:00" endTime="2022-10-10T20:49:42.7269268+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac64a320-d961-44c9-9e2d-b076acace391" />
+    <UnitTestResult executionId="8f4134ad-d2ee-4e2f-93ca-dc6829455256" testId="1c03f929-407e-5f64-1904-09f3af191185" testName="WebApiRestTest.Application.ManagerMainTest.GetInfoIvaCoiuntry_codeValid_Procesado" computerName="0029dfa38cee" duration="00:00:00.0039654" startTime="2022-10-10T20:49:42.6904567+00:00" endTime="2022-10-10T20:49:42.6904575+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f4134ad-d2ee-4e2f-93ca-dc6829455256" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaPaTest.getTax2_AmountNegative_Xero" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="abfe8bdf-86b8-09cf-eed5-83c1e2e525ca">
+      <Execution id="8cff8fe7-b9c6-49c5-bbcf-356372ba6e63" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaPaTest" name="getTax2_AmountNegative_Xero" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Application.ManagerMainTest.GetInfoIvaCoiuntry_codeValid_Procesado" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="1c03f929-407e-5f64-1904-09f3af191185">
+      <Execution id="8f4134ad-d2ee-4e2f-93ca-dc6829455256" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Application.ManagerMainTest" name="GetInfoIvaCoiuntry_codeValid_Procesado" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaCoTest.getTax1_AmountNegative_Xero" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="00c1f478-1721-9868-d845-be7f2aef610c">
+      <Execution id="2780a1a7-7515-4741-ba67-a5c11d1ef382" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaCoTest" name="getTax1_AmountNegative_Xero" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaPaTest.getTax1_AmountPositive_Value" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="36828e13-9b82-fc86-89c7-958d6fc28be9">
+      <Execution id="72b84801-5eca-406b-b4d0-4ed9c07d0166" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaPaTest" name="getTax1_AmountPositive_Value" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Application.ManagerMainTest.GetInfoIvaCoiuntry_codeInvalid_ErrorCounty" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="ce2ebe43-6d4c-ad6b-3c13-62c049fde3c6">
+      <Execution id="b6472fed-6dd2-49b5-a87f-3f2b37cb4883" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Application.ManagerMainTest" name="GetInfoIvaCoiuntry_codeInvalid_ErrorCounty" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaCoTest.getTax2_AmountNegative_Xero" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="701a6640-9f01-64af-5304-78dd8ad64e96">
+      <Execution id="5d4ce9f5-dc07-46f2-ae1f-df70adea3436" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaCoTest" name="getTax2_AmountNegative_Xero" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaPaTest.getTax1_AmountNegative_Xero" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="5c123d5b-7b08-af2d-5776-ae370c4c0e9f">
+      <Execution id="78acc5fb-231a-409e-90bc-a94647ffb2c1" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaPaTest" name="getTax1_AmountNegative_Xero" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaVeTest.getTax2_AmountPositive_Value" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="11a14aeb-ca9d-6d20-6ff3-51fa9be0824c">
+      <Execution id="c7b2faa1-7ccd-4b48-a4e4-afe4ba8033c7" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaVeTest" name="getTax2_AmountPositive_Value" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaPaTest.getTax2_AmountPositive_Value" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="faff74d1-fbf5-69e9-3c7d-a7148763132d">
+      <Execution id="047e091e-c73a-48b0-af82-48f14ffb1083" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaPaTest" name="getTax2_AmountPositive_Value" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaCoTest.getTax1_AmountPositive_Value" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="78e18d7a-8e0d-487d-2c44-8b2e2dd754e7">
+      <Execution id="bbbe0269-7745-42c4-801f-afbd376bb1f8" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaCoTest" name="getTax1_AmountPositive_Value" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Application.ManagerMainTest.GetInfoIvaCoiuntry_taxTypeNoFound_TaxInvalid" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="8add8b83-9a78-55dc-ce73-6fd091fe3597">
+      <Execution id="ac64a320-d961-44c9-9e2d-b076acace391" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Application.ManagerMainTest" name="GetInfoIvaCoiuntry_taxTypeNoFound_TaxInvalid" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaVeTest.getTax1_AmountPositive_Value" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="6da292ff-9c9d-31c6-49f3-a7e49a60a26c">
+      <Execution id="172b71fc-fe8e-48b1-a191-d152cba2f55b" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaVeTest" name="getTax1_AmountPositive_Value" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaVeTest.getTax1_AmountNegative_Xero" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="ecde0d8b-b0bc-e90f-a261-d479148b2029">
+      <Execution id="626de806-a7aa-4e39-9ff8-2d11a1c3a202" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaVeTest" name="getTax1_AmountNegative_Xero" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaVeTest.getTax2_AmountNegative_Xero" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="108569ea-acd8-a96f-5403-a36b56bbcb99">
+      <Execution id="7f49bab9-ba1b-4e6e-a70f-5cc6be961ba2" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaVeTest" name="getTax2_AmountNegative_Xero" />
+    </UnitTest>
+    <UnitTest name="WebApiRestTest.Domain.CalculatorIvaCoTest.getTax2_AmountPositive_Value" storage="/src/test/webapiresttest/bin/debug/netcoreapp3.1/webapiresttest.dll" id="50e3964a-176f-2972-2e6a-b9483595f84f">
+      <Execution id="019ae792-c16d-4bf0-8923-b468afbcb688" />
+      <TestMethod codeBase="/src/test/WebApiRestTest/bin/Debug/netcoreapp3.1/WebApiRestTest.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="WebApiRestTest.Domain.CalculatorIvaCoTest" name="getTax2_AmountPositive_Value" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6da292ff-9c9d-31c6-49f3-a7e49a60a26c" executionId="172b71fc-fe8e-48b1-a191-d152cba2f55b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00c1f478-1721-9868-d845-be7f2aef610c" executionId="2780a1a7-7515-4741-ba67-a5c11d1ef382" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecde0d8b-b0bc-e90f-a261-d479148b2029" executionId="626de806-a7aa-4e39-9ff8-2d11a1c3a202" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11a14aeb-ca9d-6d20-6ff3-51fa9be0824c" executionId="c7b2faa1-7ccd-4b48-a4e4-afe4ba8033c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="701a6640-9f01-64af-5304-78dd8ad64e96" executionId="5d4ce9f5-dc07-46f2-ae1f-df70adea3436" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36828e13-9b82-fc86-89c7-958d6fc28be9" executionId="72b84801-5eca-406b-b4d0-4ed9c07d0166" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce2ebe43-6d4c-ad6b-3c13-62c049fde3c6" executionId="b6472fed-6dd2-49b5-a87f-3f2b37cb4883" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abfe8bdf-86b8-09cf-eed5-83c1e2e525ca" executionId="8cff8fe7-b9c6-49c5-bbcf-356372ba6e63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50e3964a-176f-2972-2e6a-b9483595f84f" executionId="019ae792-c16d-4bf0-8923-b468afbcb688" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="108569ea-acd8-a96f-5403-a36b56bbcb99" executionId="7f49bab9-ba1b-4e6e-a70f-5cc6be961ba2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="faff74d1-fbf5-69e9-3c7d-a7148763132d" executionId="047e091e-c73a-48b0-af82-48f14ffb1083" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c123d5b-7b08-af2d-5776-ae370c4c0e9f" executionId="78acc5fb-231a-409e-90bc-a94647ffb2c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78e18d7a-8e0d-487d-2c44-8b2e2dd754e7" executionId="bbbe0269-7745-42c4-801f-afbd376bb1f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8add8b83-9a78-55dc-ce73-6fd091fe3597" executionId="ac64a320-d961-44c9-9e2d-b076acace391" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c03f929-407e-5f64-1904-09f3af191185" executionId="8f4134ad-d2ee-4e2f-93ca-dc6829455256" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="15" executed="15" passed="15" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.0 (64-bit .NET Core 3.1.29)
+[xUnit.net 00:00:00.86]   Discovering: WebApiRestTest
+[xUnit.net 00:00:00.89]   Discovered:  WebApiRestTest
+[xUnit.net 00:00:00.90]   Starting:    WebApiRestTest
+[xUnit.net 00:00:01.02]   Finished:    WebApiRestTest
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,16 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: webapicountryiva-service
+  labels:
+    app: webapicountryiva
+spec:   
+  ports:
+  - name: webapicountryiva
+    port: 5000
+    targetPort: 80
+    #nodePort : 30780 
+  type: LoadBalancer
+  #type: NodePort
+  selector:
+   app: webapicountryiva

@@ -1,0 +1,51 @@
+stages:
+  - build
+  - test
+  - deploy
+
+testing:
+  stage: test
+  script:
+    - cd test/WebApiRestTest/
+    - dotnet add package coverlet.msbuild --version 3.1.2
+    - dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
+  tags:
+    - linux
+    #Cambiar este valor o comentar de acuerdo a la configuracion del Runner donde se pruebe el ejercicio.
+    
+building_app:
+  stage: build
+  script:
+    - cd src/WebApiRest/
+    - dotnet build --configuration Release --source https://api.nuget.org/v3/index.json
+  tags:
+    - linux
+    #Cambiar este valor o comentar de acuerdo a la configuracion del Runner donde se pruebe el ejercicio.
+
+building_image:
+  stage: build
+  script:
+    - docker-compose build
+  tags:
+    - linux
+    #Cambiar este valor o comentar de acuerdo a la configuracion del Runner donde se pruebe el ejercicio.
+    
+deployment_push:
+  stage: deploy
+  script:
+    - sudo docker push pm44019/webapirest_ivacounty:v1  #Publico la Imagen a un Registro de Repositorios Docker
+  tags:
+    - linux
+    #Cambiar este valor o comentar de acuerdo a la configuracion del Runner donde se pruebe el ejercicio.
+  only:
+    - master
+
+deployment_cloud:
+  stage: deploy
+  script:
+    - cd cloudkube/
+    - kubectl apply -f ./ #Deployment de los Pods y el Service en un Clouter Kubernete
+  tags:
+    - linux
+  only:
+    - master

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webapicountryiva-deployment
+spec:
+  selector:
+   matchLabels:
+    app: webapicountryiva
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: webapicountryiva
+    spec:
+      containers:
+        - name: webapirest-ivacounty
+          image: pm44019/webapirest_ivacounty:v1
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 5000
+              name: webapibport

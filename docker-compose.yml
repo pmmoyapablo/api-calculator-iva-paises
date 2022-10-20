@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  webapirest:
+    container_name: webapirest_ivacounty
+    image: pm44019/webapirest_ivacounty:v1
+    build:
+      context: .
+      target: test
+      dockerfile: src/WebApiRest/Dockerfile
+    volumes: 
+      - ${BUILD_ARTIFACTSTAGINGDIRECTORY:-./test/tests-results/}:/tests 
