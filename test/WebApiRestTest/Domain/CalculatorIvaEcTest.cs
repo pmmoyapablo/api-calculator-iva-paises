@@ -1,19 +1,19 @@
-﻿using WebApiRest.Domain;
+using WebApiRest.Domain;
 using Xunit;
 
 namespace WebApiRestTest.Domain
 {
-    public class CalculatorIvaCoTest
+public class CalculatorIvaEcTest
     {
         [Fact]
         public void getTax1_AmountPositive_Value()
         {
             //Arrange
             var amount = 1200;
-            var valueExpected = 228;
+            var valueExpected = 120;
 
             //Act
-            ICalculatorIva caliva = new CalculatorIvaCo();
+            ICalculatorIva caliva = new CalculatorIvaEc();
             var valueResult = caliva.getTax1(amount);
 
             //Assert
@@ -28,7 +28,7 @@ namespace WebApiRestTest.Domain
             var valueExpected = 0;
 
             //Act
-            ICalculatorIva caliva = new CalculatorIvaCo();
+            ICalculatorIva caliva = new CalculatorIvaEc();
             var valueResult = caliva.getTax1(amount);
 
             //Assert
@@ -40,10 +40,10 @@ namespace WebApiRestTest.Domain
         {
             //Arrange
             var amount = 1200;
-            var valueExpected = 276;
+            var valueExpected = 600;
 
             //Act
-            ICalculatorIva caliva = new CalculatorIvaCo();
+            ICalculatorIva caliva = new CalculatorIvaEc();
             var valueResult = caliva.getTax2(amount);
 
             //Assert
@@ -58,7 +58,7 @@ namespace WebApiRestTest.Domain
             var valueExpected = 0;
 
             //Act
-            ICalculatorIva caliva = new CalculatorIvaCo();
+            ICalculatorIva caliva = new CalculatorIvaEc();
             var valueResult = caliva.getTax2(amount);
 
             //Assert
