@@ -23,6 +23,10 @@ namespace WebApiRest.Application
                 case "CO":
                     calculatorIva = new CalculatorIvaCo();
                     break;
+                
+                case "EC":
+                    calculatorIva = new CalculatorIvaEc();
+                    break;
 
                 case "PA":
                     calculatorIva = new CalculatorIvaPa();                 
